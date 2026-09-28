@@ -1,0 +1,16 @@
+numpy==1.26.4
+scipy==1.12.0
+pandas==2.2.3
+openpyxl==3.1.2
+matplotlib==3.8.0
+seaborn==0.13.2
+scikit-learn==1.8.0
+pingouin==0.5.5
+tqdm==4.67.1
+ipykernel
+
+# Only needed for data_model/extract_feature.py and extract_features_all.py
+# torch==2.6.0
+# torchvision==0.21.0
+# transformers==5.15.0
+# pillow==10.2.0

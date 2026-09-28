@@ -38,8 +38,7 @@ novel images was measured.
 | `data_DDMfit/` | drift-diffusion model fit results, per subject and task |
 | `results/` | notebook outputs (figure PDFs / CSVs), organized by figure |
 
-- Environment: Python 3.12 — `conda env create -f environment.yml`
-or `pip install -r requirements.txt`.
+- Environment: Python 3.12 — `pip install -r requirements.txt`.
 - Run the notebooks from the repository root, in any order; each writes its
 figures into `results/Figure1/` ... `results/Figure7/`. 
 - Stimulus images are not included; the scripts in `data_model/` regenerate the features once images are supplied under `data_set/`.
